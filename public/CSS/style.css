@@ -256,7 +256,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0px 0px 30px rgba(0, 255, 204, 0.8);
-  animation: glitch 1.5s infinite alternate;
+  animation: glitch 2.5s infinite alternate;
 }
 
 @keyframes glitch {
@@ -774,7 +774,7 @@ body {
 
 .project-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 35px;
   padding: 50px 20px;
   max-width: 1300px;
